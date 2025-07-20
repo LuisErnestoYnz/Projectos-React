@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    box-shadow: 5px 5px 9px #00000020;
+}
+
+nav > svg {
+    height: 4rem;
+    /* Ajustar automaticamente al ancho del nav */
+    width: auto;      
+    padding: 8px;
+}

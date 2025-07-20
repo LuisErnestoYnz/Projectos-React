@@ -1,0 +1,10 @@
+/* Con root, todos los estilos se aplican a nivel global */
+:root {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Para que nuestra pagina no tenga espacios en blanco a los bordes */
+* {
+    margin: 0;
+    padding: 0;
+}
