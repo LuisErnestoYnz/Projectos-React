@@ -11,7 +11,8 @@ export const PokedexApp = () => {
             {/* NavBar con logo de Pokémon */}
             <NavBar />
 
-            <BrowserRouter>
+            {/* basename={process.env.PUBLIC_URL} Para adaptar correctamente las rutas en el entorno de Pages */}
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 {/* HomeAbout Section */}
                 <section style={{textAlign: 'center', color: 'silver', display: 'flex', justifyContent: 'space-evenly'}}>
                     <Link to={'/'}>Home </Link>
